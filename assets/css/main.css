@@ -2285,7 +2285,7 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  background-color: transparent;
+  background-color: #f6b900;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
   color: #000000 !important;
 }
