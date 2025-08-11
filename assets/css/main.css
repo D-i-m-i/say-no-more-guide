@@ -279,8 +279,7 @@ p {
 }
 
 p.major {
-  /* font-size: 1.25rem; */
-  font-size: 120%;
+  font-size: 1.25rem;
 }
 
 h1,
@@ -6577,7 +6576,6 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style1 article .caption h5,
 .gallery.style1 article .caption h6 {
   font-size: 1.25rem;
-  /* font-size: 120%; */
   margin-bottom: 0.25rem;
 }
 
