@@ -33,6 +33,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
   </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-3C2V50S5D9"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-3C2V50S5D9");
+  </script>
+
   <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper" class="divided">
@@ -51,6 +67,8 @@
               <a
                 href="Say No More.pdf"
                 download
+                id="download-btn"
+                target="_blank"
                 class="button big wide smooth-scroll-middle"
                 >Download (it's free)</a
               >
@@ -99,6 +117,7 @@
               <a
                 href="https://buymeacoffee.com/demetristzionis"
                 class="button"
+                id="donate-btn"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Buy Me a Coffee</a
@@ -120,6 +139,7 @@
               <a
                 href="https://www.facebook.com/dimitzion/"
                 class="icon brands style2 fa-facebook-f"
+                id="fb-btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -130,6 +150,7 @@
               <a
                 href="https://www.instagram.com/a.pilgrimage.of.the.mind/"
                 class="icon brands style2 fa-instagram"
+                id="ig-btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -140,6 +161,7 @@
               <a
                 href="https://www.linkedin.com/in/dimi/"
                 class="icon brands style2 fa-linkedin-in"
+                id="linkedin-btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -163,6 +185,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/analytics.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
